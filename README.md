@@ -50,11 +50,15 @@ Mobile GIS applications are deployed on smartphones and tablets, bridging the ga
 *   **Fulcrum:** A highly customizable SaaS platform for building custom mobile data collection apps.
 *   **Avenza Maps:** An industry favorite for offline mapping, especially using imported Geospatial PDFs and GeoTIFFs.
 
-#### FOSS
+#### FOSS (Field Collection & Editors)
 *   **QField:** The official mobile version of QGIS; allows users to take fully configured QGIS projects into the field offline.
 *   **Mergin Maps:** Built on QGIS, focusing heavily on seamless, collaborative field data collection and cloud syncing.
 *   **ODK (Open Data Kit):** An open-source standard for mobile data collection, heavily used in humanitarian and research surveys.
 *   **Vespucci:** The primary, advanced open-source editor for contributing directly to OpenStreetMap on Android.
+
+#### FOSS (Navigation & Privacy-Focused Maps)
+*   **Organic Maps:** A highly popular, fully offline, privacy-first navigation app (driving, walking, hiking) powered by OpenStreetMap data. 
+*   **CoMaps:** A community-led navigation app (similarly focused on offline OSM data) prioritizing privacy and transparency. *(Note: CoMaps is also the name of a GitHub-hosted participatory community mapping platform)*.
 
 ---
 
@@ -89,14 +93,15 @@ Mobile GIS applications are deployed on smartphones and tablets, bridging the ga
 
 ## 5. Feature Comparison: Mobile GIS Tools
 
-| Feature / Tool | ArcGIS Field Maps (Paid) | QField (FOSS) | Mergin Maps (FOSS) | Fulcrum (Paid) | Avenza Maps (Paid/Free) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Primary Use Case** | Enterprise Field Work | Offline QGIS Projects | Collaborative Surveying | Custom Form Collection | Offline Map Viewing |
-| **Offline Support** | Excellent | Excellent | Excellent | Excellent | Excellent |
-| **Custom Forms** | Advanced (Smart Forms) | Good (via QGIS widgets) | Good (via QGIS widgets) | Highly Advanced | Basic |
-| **Desktop Integration** | ArcGIS Pro | QGIS | QGIS | API / Export | Basic |
-| **Cloud Syncing** | ArcGIS Online / Enterprise | QFieldCloud (Paid/Free) | MerginCloud | Native SaaS | Limited |
-| **High Accuracy GNSS**| Yes (RTK Support) | Yes (NMEA Support) | Yes | Yes | Limited |
+| Feature / Tool | ArcGIS Field Maps (Paid) | QField (FOSS) | Mergin Maps (FOSS) | Fulcrum (Paid) | Avenza Maps (Paid/Free) | Organic Maps / CoMaps (FOSS) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Primary Use Case** | Enterprise Field Work | Offline QGIS Projects | Collaborative Surveying | Custom Form Collection | Offline Map Viewing | Offline Navigation & Privacy |
+| **Offline Support** | Excellent | Excellent | Excellent | Excellent | Excellent | Exceptional (100% Offline) |
+| **Custom Forms** | Advanced (Smart Forms) | Good (via QGIS widgets) | Good (via QGIS widgets) | Highly Advanced | Basic | None (Navigation focus) |
+| **Desktop Integration** | ArcGIS Pro | QGIS | QGIS | API / Export | Basic | None |
+| **Cloud Syncing** | ArcGIS Online / Enterprise | QFieldCloud (Paid/Free) | MerginCloud | Native SaaS | Limited | None (By design for privacy) |
+| **High Accuracy GNSS**| Yes (RTK Support) | Yes (NMEA Support) | Yes | Yes | Limited | Standard Mobile GPS |
+
 
 ---
 
